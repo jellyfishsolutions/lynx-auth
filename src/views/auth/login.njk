@@ -1,0 +1,7 @@
+{% extends resolvePath(masterTemplatePath) %}
+
+{% block main_content %}
+    <body class="app flex-row align-items-center">
+        {% include resolvePath(loginComponentPath) %}
+    </body>
+{% endblock %}

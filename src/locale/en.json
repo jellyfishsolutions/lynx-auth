@@ -1,0 +1,18 @@
+{
+    "auth_label_login": "Login",
+    "auth_label_signin_with_your_account": "Sign In to your account",
+    "auth_placeholder_email": "Email",
+    "auth_placeholder_password": "Password",
+    "auth_button_login": "Login",
+    "auth_std_login_error": "Wrong email or password",
+    "auth_label_forgot_password": "Forgot password?",
+    "auth_label_forgot_password_title": "Forgot password?",
+    "auth_subject_forgot_password": "New password",
+    "auth_std_forgot_password_error": "The email is not correct",
+    "auth_error_mail_not_sent": "There was an error during the email sending",
+    "auth_button_request_password": "Request",
+    "auth_sent_new_password":
+        "We have sent a new password to the requested email address",
+    "auth_input_email": "the email address",
+    "auth_input_password": "the password"
+}
