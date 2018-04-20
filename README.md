@@ -24,5 +24,5 @@ app.startServer(port);
 
 ## Customization
 
-You can override the settings of the `AuthController` using the `AuthController.settings`.
+You can override the settings of the `AuthController` using the `AuthModule.settings`.
 Please check the `src/views/auth` and the `src/locale` folders to create further customizations.
