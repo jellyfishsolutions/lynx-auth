@@ -1,13 +1,13 @@
 {
     "name": "lynx-auth",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "Authentication module for the Lynx framework",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "gulp build",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublish": "npm run build",
+        "prepublishOnly": "npm run build",
         "postinstall": "mv dist/* ."
     },
     "repository": {
@@ -22,7 +22,7 @@
     },
     "homepage": "https://github.com/jellyfishsolutions/lynx-auth#readme",
     "dependencies": {
-        "lynx-framework": "^0.1.8"
+        "lynx-framework": "^0.2.2"
     },
     "devDependencies": {
         "gulp": "^3.9.1",
